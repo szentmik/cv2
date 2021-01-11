@@ -26,7 +26,6 @@ footer {
 
 h1 {
   font-size: 60px;
-  padding-top: 4rem;
 }
 
 h2 {
@@ -49,7 +48,9 @@ hr {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  padding-bottom: 25%;
+  padding-top: 20vh;
+  height: 100vh;
+  width: auto;
 }
 
 .jump-down {
@@ -126,7 +127,7 @@ hr {
   background-position: bottom center;
   background-size: cover;
   background-attachment: fixed;
-  padding: 5% 0;
+  padding: 15% 0;
 }
 
 .about-me {
@@ -159,7 +160,6 @@ hr {
 }
 
 @media screen and (max-width: 900px) {
-
   .job-img {
     float: none;
 
