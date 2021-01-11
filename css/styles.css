@@ -1,0 +1,176 @@
+body {
+  background-color: #e1d89f;
+  color: #374045;
+  font-family: 'Montserrat';
+  line-height: 2;
+  position: relative;
+  margin:0;
+  padding: 0;
+  scroll-behavior: smooth;
+  text-align: center;
+}
+
+h1, h2, h3 {
+  font-family: 'Lobster';
+}
+
+header {
+  text-align: center;
+
+}
+
+footer {
+  font-size: .75rem;
+  padding-bottom: 2rem;
+}
+
+h1 {
+  font-size: 3.5rem;
+  padding-top: 4rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+  padding: 2rem;
+}
+
+h3 {
+  padding: 1rem 0 2rem;
+}
+
+hr {
+  border-top: .5rem dotted #374045;
+  background-color: transparent;
+  width: 5rem;
+  margin: 5rem auto;
+}
+
+/* Head section */
+
+.my-card {
+  background-image: url('../images/mountains.png');
+  background-position: center bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding-bottom: 25%;
+}
+
+.jump-down {
+  display: none;
+  font-size: 20rem;
+  padding-top: 5%;
+}
+
+.profile-img {
+  border-radius: 100%;
+  margin-top: 5%;
+  position: relative;
+  transition-duration: .5s;
+  width: 128px;
+}
+.profile-img:hover {
+  transform: scale(1.5);
+
+}
+
+
+
+/* Body Section */
+
+.experience {
+  margin: 0 auto;
+}
+
+.card-experience {
+  border: .1rem solid #374045;
+  border-radius: 1rem;
+  box-shadow: 0.2rem 0.2rem;
+  margin: 2rem auto;
+  padding: 1rem;
+  position: relative;
+  text-align: left;
+  width: 65%;
+}
+.job-img {
+  border-radius: 3rem;
+  max-width: 15rem;
+  padding: 2rem;
+  position: relative;
+  z-index: +1;
+  transition-duration: .3s;
+}
+  .job-img:hover {
+    transform: rotate(22.5deg);
+  }
+
+  .job-img1, .job-img3 {
+    float: right;
+
+  }
+  .job-img2 {
+    float: left;
+  }
+
+  /* Skills */
+
+  .skill {
+    background-color: #e1d8ff55;
+    border-radius: 1rem;
+    margin: 0 auto;
+    padding: 2rem;
+    max-width: 30rem;
+    text-align: left;
+  }
+
+/* About Section */
+#contact-section {
+  background-image: url('../images/mountains.png');
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 5% 7%;
+}
+
+.about-me {
+  margin: 0 auto;
+  width: 85%;
+}
+
+.contact {
+  background-color: #37404577;
+  border-radius: 1rem;
+  color: #e1d89f;
+  margin: 2rem;
+  padding: 1rem;
+}
+
+.contact-icons, .contact-icons:hover, .contact-icons:active, .contact-icons:visited {
+  color: #e1d89f;
+  text-decoration: none;
+  padding: 40px;
+
+}
+
+/* Footer Section */
+.social-icons, .social-icons:hover, .social-icons:active, .social-icons:visited {
+    color: #374045;
+    font-size: 1.5rem;
+    margin: 1rem;
+}
+
+@media screen and (max-width: 900px) {
+
+  .job-img {
+    float: none;
+
+  }
+  .card-experience {
+    width: 85%;
+  }
+  .img-center {
+    text-align: center;
+  }
+
+}
