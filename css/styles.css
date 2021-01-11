@@ -142,15 +142,13 @@ hr {
   background-color: #37404577;
   border-radius: 1rem;
   color: #e1d89f;
-  margin: 2rem;
+  margin: 1rem;
   padding: 1rem;
 }
 
 .contact-icons, .contact-icons:hover, .contact-icons:active, .contact-icons:visited {
   color: #e1d89f;
   text-decoration: none;
-  padding: 40px;
-
 }
 
 /* Footer Section */
@@ -167,10 +165,13 @@ hr {
 
   }
   .card-experience {
-    width: 85%;
+    width: 95%;
   }
   .img-center {
     text-align: center;
+  }
+  .about-me {
+    width: 95%;
   }
 
 }
