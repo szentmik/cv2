@@ -54,6 +54,7 @@ hr {
 /* Head section */
 
 .menu {
+  font-weight: 500;
   color: #374045;
 
 }
@@ -66,7 +67,7 @@ hr {
 }
 .float-menu {
   display: none;
-  background-color: #ffffffbb;
+  background-color: #e1d89f;
   font-weight: 500;
   position: absolute;
   top: 64px;
