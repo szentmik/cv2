@@ -15,6 +15,13 @@ h1, h2, h3 {
 }
 
 header {
+  background-image: url('../images/mountains.png');
+  background-position: center bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+  width: auto;
   text-align: center;
 
 }
@@ -43,14 +50,8 @@ hr {
 /* Head section */
 
 .my-card {
-  background-image: url('../images/mountains.png');
-  background-position: center bottom;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  padding-top: 20vh;
-  height: 100vh;
-  width: auto;
+    padding: 10vh 0;
+
 }
 
 .jump-down {
