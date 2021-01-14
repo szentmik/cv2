@@ -50,9 +50,7 @@ hr {
   width: 5rem;
   margin: 5rem auto;
 }
-
 /* Head section */
-
 .menu {
   font-weight: 500;
   color: #374045;
@@ -79,7 +77,6 @@ hr {
 }
 .my-card {
     padding: 10vh 0;
-
 }
 
 .jump-down {
@@ -99,11 +96,7 @@ hr {
   transform: scale(1.5);
 
 }
-
-
-
 /* Body Section */
-
 .experience {
   margin: 0 auto;
 }
@@ -137,9 +130,7 @@ hr {
   .job-img2 {
     float: left;
   }
-
   /* Skills */
-
   .skill {
     background-color: #e1d8ff55;
     border-radius: 1rem;
@@ -148,7 +139,6 @@ hr {
     max-width: 30rem;
     text-align: left;
   }
-
 /* About Section */
 #contact-section {
   background-image: url('../images/mountains.png');
@@ -198,13 +188,10 @@ hr {
   display: block;
 }
 
-
 .rotate-item {
   transition-duration: 0.3s;
   transform: rotate(180deg);
 }
-
-
 
 @media screen and (max-width: 1024px) {
   #menu-icon {
@@ -229,6 +216,4 @@ hr {
   .about-me {
     width: 95%;
   }
-
-
 }
