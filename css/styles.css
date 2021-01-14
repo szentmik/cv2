@@ -194,10 +194,23 @@ hr {
   right: 32px;
   bottom: 32px;
 }
+.showMeMenu {
+  display: block;
+}
+
+
+.rotate-item {
+  transition-duration: 0.3s;
+  transform: rotate(180deg);
+}
+
+
 
 @media screen and (max-width: 1024px) {
   #menu-icon {
-    display: inline-block;
+    display: block;
+    position: relative;
+    top: 16px;
   }
   .menu {
     display: none;
